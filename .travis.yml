@@ -8,4 +8,6 @@ go:
 before_install:
   - go get github.com/mattn/goveralls
 
-script: $GOPATH/bin/goveralls -service=travis-ci
+script:
+  - go test -coverprofile=spdx-go.cov ./...
+  - $GOPATH/bin/goveralls -coverprofile=spdx-go.cov -service=travis-ci
