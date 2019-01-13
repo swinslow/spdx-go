@@ -1,3 +1,12 @@
+# DEPRECATED
+
+swinslow/spdx-go is now deprecated, as it has been moved to the SPDX Tools project at
+[spdx/tools-golang](https://github.com/spdx/tools-golang).
+
+Please update import links to use the new location instead, as this repo will not be maintained further.
+
+=====
+
 [![Build Status](https://travis-ci.org/swinslow/spdx-go.svg?branch=master)](https://travis-ci.org/swinslow/spdx-go)
 [![Coverage Status](https://coveralls.io/repos/github/swinslow/spdx-go/badge.svg)](https://coveralls.io/github/swinslow/spdx-go)
 
